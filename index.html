@@ -1,11 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Inicio</title>
+    <link rel="stylesheet" href="../VivaDiseno/CSS/style.css">
 </head>
-<body>
-    
+
+<body class="bg-[#e9e5e1]">
+    <nav class="menu-navegacion flex justify-end items-center te p-4 w-full h-[6em] fixed top-0 text-white z-10"
+        style="background-color: #e0e0df;">
+
+        <div class="flex flex-col justify-center p-2 rounded-md menu-normal hover:bg-slate-100 lg:hidden">
+            <div class="border-b-2 w-12 border-gray-500 rounded-lg my-[10%]"></div>
+            <div class="border-b-2 w-12 border-gray-500 rounded-lg my-[10%]"></div>
+            <div class="border-b-2 w-12 border-gray-500 rounded-lg my-[10%]"></div>
+        </div>
+        <div class="hidden menu-moviles lg:block">
+            <ul class="flex items-center h-[100%]">
+                <li class="mx-3 border-b-2 hover:border-gray-500"><a href="index.html">Inicio</a></li>
+                <li class="mx-3 border-b-2 hover:border-gray-500"><a href="services.html">Servicios</a></li>
+                <li class="mx-3 border-b-2 hover:border-gray-500"><a href="about.html">Sobre nosotros</a></li>
+                <li class="mx-3 border-b-2 hover:border-gray-500"><a href="#viajes">Viajes</a></li>
+                <li class="mx-3 border-b-2 hover:border-gray-500"><a href="contact.html">Contacto</a></li>
+        </div>
+    </nav>
 </body>
+
 </html>
