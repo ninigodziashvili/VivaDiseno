@@ -10,29 +10,31 @@
 </head>
 
 <body class="bg-[#e9e5e1]">
-    <nav
-        class="menu-navegacion flex items-center justify-between p-4 w-full h-[6em] fixed top-0 text-black z-10 bg-white">
-        <div class="flex items-center gap-20 ml-[1em]">
-            <div class="border border-solid border-black rounded-[5px] p-2">
-                <h3>VivaDiseño</h3>
-            </div>
-            <img class="w-26 h-16 max-w-full max-h-full" src="../VivaDiseno/img/logo.png" alt="Logo">
+    <nav>
+        <div class="logo">
+          <h4>VivaDiseño</h4>
         </div>
-        
-        <div class="flex flex-col justify-center p-2 rounded-md menu-normal hover:bg-slate-100 lg:hidden">
-            <div class="border-b-2 w-12 border-gray-500 rounded-lg my-[10%]"></div>
-            <div class="border-b-2 w-12 border-gray-500 rounded-lg my-[10%]"></div>
-            <div class="border-b-2 w-12 border-gray-500 rounded-lg my-[10%]"></div>
+        <ul class="nav-link">
+          <li>
+            <a href="index.html">Inicio</a>
+          </li>
+          <li>
+            <a href="services.html">Servicio</a>
+          </li>
+          <li>
+            <a href="about.html">Sobre Nosotros</a>
+          </li>
+          <li>
+            <a href="contact.html">Contacto</a>
+          </li>
+        </ul>
+        <div class="burger">
+          <div class="burger-line1"></div>
+          <div class="burger-line2"></div>
+          <div class="burger-line3"></div>
         </div>
-        <div class="hidden menu-moviles lg:block">
-            <ul class="flex items-center h-[100%]">
-                <li class="mx-3 hover:text-xl"><a href="index.html">Inicio</a></li>
-                <li class="mx-3 hover:text-xl"><a href="services.html">Servicios</a></li>
-                <li class="mx-3 hover:text-xl"><a href="about.html">Sobre nosotros</a></li>
-                <li class="mx-3 hover:text-xl"><a href="contact.html">Contacto</a></li>
-            </ul>
-        </div>
-    </nav>
+      </nav>
+      <script src="script.js"></script>
 </body>
 
 </html>
