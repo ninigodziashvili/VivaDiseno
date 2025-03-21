@@ -54,12 +54,6 @@
     .nav-link{
       width: 60%;
     }
-    .main {
-      background-image: linear-gradient(to bottom, rgb(31 31 40/70%) 0, rgba(51 48 47/30%) 100%), url("../img/sun.jpg");
-      background-size: cover;
-      background-repeat: no-repeat;
-      height: 92vh;
-    }
   }
   @media screen and (max-width: 800px){
     body{
