@@ -2,6 +2,10 @@
   font-family: "Arial", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .nav-link {
   display: flex;
   width: 40%;
