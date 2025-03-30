@@ -18,20 +18,14 @@ const navSlide = () => {
 
 navSlide();
 
-document.addEventListener("DOMContentLoaded", function () {
-  document.getElementById("basicCard").addEventListener("click", function () {
-    window.location.href = "basic.html";
-  });
-});
+function openBasicPage() {
+  window.location.href = 'basic.html';
+}
 
-document.addEventListener("DOMContentLoaded", function () {
-  document.getElementById("medioCard").addEventListener("click", function () {
-    window.location.href = "medio.html";
-  });
-});
+function openAboutPage() {
+  window.location.href = 'about.html';
+}
 
-document.addEventListener("DOMContentLoaded", function () {
-  document.getElementById("premioCard").addEventListener("click", function () {
-    window.location.href = "premium.html";
-  });
-});    
+function openServicePage() {
+  window.location.href = 'services.html';
+}
