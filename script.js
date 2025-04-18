@@ -21,18 +21,3 @@ navSlide();
 function openBasicPage() {
   window.location.href = 'basic.html';
 }
-
-function openAboutPage() {
-  window.location.href = 'about.html';
-}
-
-
-function openServicePage() {
-  const target = document.getElementById('serviceCards');
-  const offsetTop = target.getBoundingClientRect().top + window.pageYOffset;
-
-  window.scrollTo({
-    top: offsetTop,
-    behavior: 'smooth'
-  });
-}
