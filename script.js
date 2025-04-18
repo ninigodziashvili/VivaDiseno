@@ -21,11 +21,3 @@ navSlide();
 function openBasicPage() {
   window.location.href = 'basic.html';
 }
-
-function openAboutPage() {
-  window.location.href = 'about.html';
-}
-
-function openServicePage() {
-  window.location.href = 'services.html';
-}

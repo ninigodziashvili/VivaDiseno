@@ -12,14 +12,16 @@
 <body class="bg-[#e9e5e1]">
     <nav class="flex justify-around items-center bg-[#e9e5e1] min-h-[10vh]">
         <div class="text-[#111010] w-[30%] uppercase text-xl tracking-[5px]">
-            <h4>VivaDiseño</h4>
+            <a href="index.html">
+                <h4>VivaDiseño</h4>
+            </a>
         </div>
         <ul class="nav-link">
             <li>
                 <a href="index.html">Inicio</a>
             </li>
             <li>
-                <a href="services.html">Servicio</a>
+                <a href="services.html" class="active">Servicio</a>
             </li>
             <li>
                 <a href="about.html">Sobre Nosotros</a>
@@ -45,8 +47,8 @@
             el espacio de su hogar, renovando su estilo y funcionalidad, y creando la nueva imagen que desea. </p>
         <p>
     </section>
-    <div class="max-w-screen-xl p-5 sm:p-10 md:p-16 lg:ml-[8em]">
-        <div class="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-1 gap-[10em] lg:w-[90em] justify-center">
+    <div id="servicecards" class="w-full p-2 sm:p-10 md:p-16 lg:ml-[1em]">
+        <div class="grid grid-cols-1 md:grid-cols-1 sm:grid-cols-1 gap-[7em] justify-center">
             <div class="rounded overflow-hidden shadow-lg">
                 <a href="#"></a>
                 <div class="relative">
@@ -94,8 +96,7 @@
                 <a href="#"></a>
                 <div class="relative">
                     <a href="#">
-                        <img class="w-full lg:h-[248px]"
-                            src="../VivaDiseno/img/descarga.jfif"
+                        <img class="w-full lg:h-[248px]" src="../VivaDiseno/img/descarga.jfif"
                             alt="Sunset in the mountains">
                         <div
                             class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
@@ -127,10 +128,10 @@
             <p class="text-gray-600 z-10 text-center max-w-[40em] text-xl ml-[5em]">
                 Diseño de Interiores que Refleja tu Personalidad, diseño de interiores para tu hogar
             </p>
-            <button onclick="openAboutPage()" class="relative bg-[#8d6e63] hover:bg-[#6d4c41] text-white font-bold py-3 px-4 rounded z-12 
-w-[12em] h-[3em] min-w-[12em] flex justify-center">
-                Ver Más
-            </button>
+            <a href="about.html#aboutus"
+                class="scroll-smooth relative bg-[#8d6e63] hover:bg-[#6d4c41] text-white font-bold py-3 px-4 rounded z-12 w-[12em] h-[3em] min-w-[12em] flex justify-center">
+                Ver mas
+            </a>
         </div>
     </section>
     <section class="bg-[#efebe9] sm:mt-[30em] lg:mt-[30em] mt-[2em]">

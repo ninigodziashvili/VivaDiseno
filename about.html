@@ -12,7 +12,9 @@
 <body class="bg-[#e9e5e1]">
     <nav class="flex justify-around items-center bg-[#e9e5e1] min-h-[10vh]">
         <div class="text-[#111010] w-[30%] uppercase text-xl tracking-[5px]">
-            <h4>VivaDiseño</h4>
+            <a href="index.html">
+                <h4>VivaDiseño</h4>
+            </a>
         </div>
         <ul class="nav-link">
             <li>
@@ -22,7 +24,7 @@
                 <a href="services.html">Servicio</a>
             </li>
             <li>
-                <a href="about.html">Sobre Nosotros</a>
+                <a href="about.html" class="active">Sobre Nosotros</a>
             </li>
             <li>
                 <a href="contact.html">Contacto</a>
@@ -34,7 +36,7 @@
             <div class="burger-line3"></div>
         </div>
     </nav>
-    <div class="relative w-full h-[50em] mb-[3em]" id="home">
+    <div class="relative w-full h-[40em] mb-[3em]" id="home">
         <div class="absolute inset-0 opacity-70">
             <img src="../VivaDiseno/img/5555.jpeg" alt="Background Image"
                 class="object-cover object-center w-full h-full" />
@@ -43,7 +45,7 @@
     <section id="aboutus">
         <div class="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
-                <div class="max-w-[40em]">
+                <div id="aboutus" class="max-w-[40em]">
                     <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">Sobre Nosotros</h2>
                     <p class="mt-4 text-gray-600 text-lg">
                         Creemos que el diseño de interiores no solo transforma espacios, sino que también
@@ -71,7 +73,7 @@
 
     <section class="text-gray-700 body-font" id="gallery">
         <div class="flex justify-center text-3xl font-bold text-gray-800 text-center py-10">
-            Transformando espacios: antes y después
+            Transformacion de espacio: antes y después
         </div>
 
         <div class="grid grid-cols-1 place-items-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
@@ -167,6 +169,7 @@
             </p>
         </div>
     </section>
+    <script src="script.js"></script>
 </body>
 
 </html>
