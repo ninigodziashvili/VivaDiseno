@@ -26,6 +26,13 @@ function openAboutPage() {
   window.location.href = 'about.html';
 }
 
+
 function openServicePage() {
-  window.location.href = 'services.html';
+  const target = document.getElementById('serviceCards');
+  const offsetTop = target.getBoundingClientRect().top + window.pageYOffset;
+
+  window.scrollTo({
+    top: offsetTop,
+    behavior: 'smooth'
+  });
 }
